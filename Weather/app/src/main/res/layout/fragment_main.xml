@@ -28,7 +28,7 @@
         android:layout_marginEnd="5dp"
         android:backgroundTint="@color/blue_bg"
         app:cardCornerRadius="10dp"
-        app:cardElevation="1dp"
+        app:cardElevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -145,6 +145,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:tabIndicatorColor="@color/purple_200"
         app:tabTextAppearance="@style/TextAppearance.AppCompat.Medium"
         app:tabTextColor="@color/white">
 
