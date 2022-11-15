@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue_bg">#1A71B2E4</color>
     <color name="blue_bg2">#0371B2E4</color>
+    <color name="textTemp">#00E5FF</color>
 </resources>
