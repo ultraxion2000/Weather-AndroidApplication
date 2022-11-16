@@ -19,11 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.placeHolder,MainFragment.newInstance())
+            .replace(R.id.placeHolder, MainFragment.newInstance())
             .commit()
-
     }
-
-        //val url = "http://api.weatherapi.com/v1/current.json" +
-               // "?key=$API_KEY&q=$name&aqi=no"
-    }
+}
