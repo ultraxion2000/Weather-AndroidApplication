@@ -10,8 +10,6 @@ import com.android.volley.toolbox.Volley
 import com.example.weather.databinding.ActivityMainBinding
 import com.example.weather.fragments.MainFragment
 import org.json.JSONObject
-
-//const val  API_KEY = "064500be650a47f9935131324221111"
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
