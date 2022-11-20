@@ -1,4 +1,4 @@
-package com.example.weather.adapters
+package com.example.weather.repository
 
 data class WeatherModel (
     val city:String,

@@ -1,4 +1,4 @@
-package com.example.weather.adapters
+package com.example.weather.presentation.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +8,7 @@ import  androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.weather.R
 import com.example.weather.databinding.ListItemBinding
+import com.example.weather.repository.WeatherModel
 
 
 class WeatherAdapter : ListAdapter<WeatherModel, WeatherAdapter.Holder>(Comparator()) {

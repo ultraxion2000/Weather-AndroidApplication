@@ -1,4 +1,4 @@
-package com.example.weather.adapters
+package com.example.weather.presentation.adapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

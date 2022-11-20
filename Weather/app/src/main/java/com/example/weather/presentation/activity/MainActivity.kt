@@ -1,15 +1,10 @@
-package com.example.weather
+package com.example.weather.presentation.activity
 
-import android.app.DownloadManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import com.android.volley.Request
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
-import com.example.weather.databinding.ActivityMainBinding
-import com.example.weather.fragments.MainFragment
-import org.json.JSONObject
+import com.example.weather.R
+import com.example.weather.presentation.fragments.MainFragment
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

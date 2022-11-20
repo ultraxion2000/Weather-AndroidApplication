@@ -1,4 +1,4 @@
-package com.example.weather.fragments
+package com.example.weather.presentation.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.weather.R
-import com.example.weather.adapters.WeatherAdapter
-import com.example.weather.adapters.WeatherModel
+import com.example.weather.presentation.adapters.WeatherAdapter
+import com.example.weather.repository.WeatherModel
 import com.example.weather.databinding.FragmentHoursBinding
 import com.google.android.gms.common.util.CollectionUtils.listOf
 

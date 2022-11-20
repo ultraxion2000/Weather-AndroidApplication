@@ -1,4 +1,4 @@
-package com.example.weather
+package com.example.weather.repository
 
 data class DayItem(
     val city: String,

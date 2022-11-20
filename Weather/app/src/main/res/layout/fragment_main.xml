@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alpha="0.8"
-    tools:context=".fragments.MainFragment">
+    tools:context=".presentation.fragments.MainFragment">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -54,7 +54,7 @@
                 android:fontFamily="sans-serif-light"
                 android:text="13.11.2022"
                 android:textColor="@color/white"
-                android:textSize="14sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,7 +89,7 @@
                 android:fontFamily="sans-serif-light"
                 android:text="Sunny"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCaurrentTemp" />
@@ -101,7 +101,7 @@
                 android:fontFamily="sans-serif-light"
                 android:text="15°C/-5°C"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCondition" />
