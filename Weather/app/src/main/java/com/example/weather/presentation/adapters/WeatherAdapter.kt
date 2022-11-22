@@ -9,15 +9,17 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.weather.R
 import com.example.weather.databinding.ListItemBinding
 import com.example.weather.repository.WeatherModel
+import com.squareup.picasso.Picasso
 
 
 class WeatherAdapter : ListAdapter<WeatherModel, WeatherAdapter.Holder>(Comparator()) {
     class Holder(view: View) : RecyclerView.ViewHolder(view){
         val binding = ListItemBinding.bind(view)
-        fun bind(item: WeatherModel) {
-            binding.tvDate.text = item.time
-            binding.tvCondition.text = item.condition
-            binding.tvTemp.text = item.currentTemp
+        fun bind(item: WeatherModel) = with(binding) {
+            tvDate.text = item.time
+            tvCondition.text = item.condition
+            tvTemp.text = item.currentTemp
+            Picasso.get().load("https:" + item.imageUrl).into(im)
         }
     }
     class Comparator : DiffUtil.ItemCallback<WeatherModel>(){
